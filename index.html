@@ -1,41 +1,67 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Receitas da Dai</title>
-<style>
-body { font-family: Arial; margin: 0; padding: 0; background:#fafafa; }
-header { background:#ff7043; color:white; padding:20px; text-align:center; }
-section { padding:20px; max-width:900px; margin:auto; }
-.card { background:white; padding:15px; margin-bottom:20px; border-radius:10px; box-shadow:0 2px 5px rgba(0,0,0,0.1); }
-.card img { width:100%; border-radius:10px; }
-h2 { margin-top:0; }
-</style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Receitas Deliciosas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fef6d7;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        h1 {
+            margin-top: 30px;
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 30px auto;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+            text-align: left;
+        }
+        .card img {
+            width: 100%;
+            max-height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .card h2 {
+            margin: 10px 0;
+        }
+        .card p {
+            color: #555;
+        }
+    </style>
 </head>
 <body>
-<header><h1>Receitas da Dai 🍲</h1></header>
-
-<section>
-<div class="card">
-<img src="https://images.unsplash.com/photo-1604908177232-055f994b3a36?auto=format&fit=crop&w=900&q=60">
-<h2>Lasanha Caseira</h2>
-<p>Uma lasanha deliciosa com molho artesanal.</p>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=60">
-<h2>Macarrão Cremoso</h2>
-<p>Simples, rápido e muito saboroso.</p>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=900&q=60">
-<h2>Bolo de Chocolate</h2>
-<p>O melhor bolo fofinho com cobertura cremosa.</p>
-</div>
-</section>
-
+    <h1>Receitas Deliciosas</h1>
+    <div class="container">
+        <div class="card">
+            <img src="bolo.png" alt="Bolo de Chocolate">
+            <h2>Bolo de Chocolate</h2>
+            <p>Um bolo fofinho e delicioso.</p>
+        </div>
+        <div class="card">
+            <img src="lasanha.png" alt="Lasanha Caseira">
+            <h2>Lasanha Caseira</h2>
+            <p>Lasanha tradicional com muito queijo.</p>
+        </div>
+        <div class="card">
+            <img src="salada.png" alt="Salada Fitness">
+            <h2>Salada Fitness</h2>
+            <p>Leve, saudável e saborosa.</p>
+        </div>
+    </div>
 </body>
 </html>
